@@ -1,0 +1,259 @@
+.game-background-image {
+    background: url(../../assets/images/gameBackground.svg);
+    height: 457px;
+    width: 400px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 42px;
+    border-bottom: 4px solid #d3a341;
+  }
+  .youtube-gradient-background-image {
+    background: url(../../assets/images/gradientBack.svg);
+    height: 100px;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -42px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
+  .game-border-bottom {
+  }
+  .game-btns-background {
+    background-color: #603d02;
+    padding: 20px;
+    width: 400px;
+  }
+  .game-btns-flex-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .dropbtn-image-style {
+    border-radius: 100px;
+    cursor: pointer;
+  }
+  .dropbtn-image-style:active {
+    transform: scale(0.9);
+  }
+  .game-btns-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 210px;
+    z-index: 11;
+  }
+  .games-center-btn-image {
+    /* background: url(../../assets/images/centercircle.svg); */
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .game-content-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 25px;
+  }
+  .view-btn-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: -40px;
+    cursor: pointer;
+  }
+  .game-btn-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  .game-center-control-image {
+    position: absolute;
+    z-index: 1;
+    height: 152px;
+    width: 152px;
+  }
+  .game-horizontal-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .video-viewer-eye-icon {
+    width: 36px;
+    height: 22px;
+  }
+  .videos-viewers {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+  }
+  .videos-viewers-container {
+    margin-top: 20px;
+  }
+  
+.up-image-game {
+   cursor: pointer;
+ }
+ .up-image-game:active {
+  transform: scale(0.9);
+}
+.left-image-game {
+   cursor: pointer;
+}
+.left-image-game:active {
+  transform: scale(0.9);
+}
+.right-image-game {
+  cursor: pointer;
+}
+.right-image-game:active{
+transform: scale(0.9);
+
+}
+.down-image-game {
+  cursor: pointer;
+}
+.down-image-game:active {
+  transform: scale(0.9);
+}
+.view-btn-image-game:active{
+  transform: scale(0.9);
+}
+
+
+@media only screen and (max-width:550px) {
+    .game-btns-background {
+      width: 100%;
+      height: 292px;
+  }
+  .game-content-container {
+    margin-top: 0px;
+  }
+  .game-background-image {
+    width: 100%;
+    background-size: cover;
+    margin-top: 35px;
+  }
+  .game-center-control-image {
+    height: 130px;
+    width: 130px;
+  }
+  .view-btn-bar {
+    margin-bottom: -20px;
+  }
+  
+  .up-image-game {
+    width: 70px;
+    height: 70px;
+    margin-bottom: -10px;
+  }
+  .left-image-game {
+    width: 70px;
+    height: 70px;
+  }
+  .right-image-game {
+    width: 70px;
+    height: 70px;
+  }
+  .down-image-game {
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+  }
+  .game-center-control-image {
+    height: 110px;
+    width: 110px;
+  }
+  .game-btns-container {
+    width: 185px;
+    height: 180px;
+    z-index: 11;
+  }
+  .game-btn-controls {
+    margin-left: 0px;
+  }
+  .dropbtn-image-style {
+    width: 90px;
+    height: 90px;
+    margin-right: -5px;
+  }
+  .view-btn-image-game {
+    height: 40px;
+    width: 40px;
+  }
+  .youtube-gradient-background-image {
+    width: 100%;
+    height: 150px;
+    background-size: contain;
+    margin-top: -36px;
+  }
+}
+
+@media only screen and (min-width:2000px){
+  .game-background-image {
+    height: 740px;
+    width: 650px;
+  }
+  .youtube-gradient-background-image {
+    height: 150px;
+    width: 100%;
+  }
+  .game-btns-background {
+    padding: 50px;
+    width: 650px;
+  }
+  .view-btn-bar {
+    margin-bottom: -20px;
+  }
+  .view-btn-image-game {
+    height: 70px;
+    width: 70px;
+  }
+  .game-center-control-image {
+    height: 200px;
+    width: 200px;
+  }
+  .game-btns-container {
+    width: 300px;
+  }
+  .up-image-game {
+    width: 110px;
+    height: 90px;
+    margin-bottom: 0px;
+  }
+  .left-image-game {
+    width: 120px;
+    height: 110px;
+  }
+  .right-image-game {
+    width: 120px;
+    height: 110px;
+  }
+  .down-image-game {
+    width: 110px;
+    height: 90px;
+    margin-top: -10px;
+  }
+  .dropbtn-image-style {
+    width: 125px;
+    height: 125px;
+  }
+}
+@media only screen and (min-width:1880px){
+  .game-btns-background {
+    padding: 40px;
+  }
+  .game-btn-controls{
+    margin-left: -10px;
+  }
+  .view-btn-bar{
+    margin-bottom: -20px;
+  }
+}

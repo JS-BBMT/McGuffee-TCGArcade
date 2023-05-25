@@ -1,0 +1,53 @@
+.gaming-container{
+  background-color: #252525;
+  height: 100%;
+  min-height: 100vh;
+}
+.gaming-header{
+display: block;
+}
+.mobile-header{
+  display: none;
+}
+.mobile-responsive-tabs-container{
+  display: none;
+}
+.game-footer{
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  z-index: 10000;
+}
+
+@media only screen and (max-width:600px){
+  .gaming-header{
+    display: none;
+    }
+  .mobile-header{
+    display: block;
+   }
+}
+
+
+
+@media only screen and (max-width:550px){
+.mobile-responsive-tabs-container{
+  display: block;
+}
+.responsive-padding-container{
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+}
+
+@media only screen and (min-width:1800px){
+  .responsive-video-game-container{
+    max-width: 100%;
+  }
+  .invisible-columns{
+    display: none;
+  }
+  .responsive-columns-width{
+    width: 33.333%;
+  }
+}

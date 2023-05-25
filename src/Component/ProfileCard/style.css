@@ -1,0 +1,117 @@
+.profile-card-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 30px;
+  background: linear-gradient(180deg, #A36F1A 0%, #593700 100%);
+  border-radius: 20px 20px 0px 0px;
+}
+.profile-card-main-container{
+  width: 90%;
+}
+
+.profile-left-header-border{
+  background-color: #fff;
+  width: 33%;
+  height: 1px;
+  margin-right: 30px;
+}
+.profile-right-header-border{
+  background-color: #fff;
+  width: 33%;
+  height: 1px;
+  margin-left: 30px;
+}
+.profile-card-name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.profile-card-content-container{
+  background: rgba(138, 196, 228, 0.3);
+  border-radius: 0px 0px 20px 20px;
+  padding: 30px 0px 20px 0px
+}
+
+@media only screen and (max-width:1270px){
+  .profile-left-header-border{
+    width: 27%;
+  }
+  .profile-right-header-border{
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width:946px){
+  .profile-left-header-border{
+    width: 22%;
+  }
+  .profile-right-header-border{
+    width: 22%;
+  }
+}
+
+@media only screen and (max-width:777px){
+  .profile-left-header-border{
+    width: 18%;
+  }
+  .profile-right-header-border{
+    width: 18%;
+  }
+}
+
+
+@media only screen and (max-width:768px){
+  .profile-card-name{
+    font-size: 20px;
+  }
+  .profile-card-content-container{
+    padding:30px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width:550px){
+  .profile-card-name{
+    font-size: 20px;
+  }
+  .profile-card-content-container{
+    padding:30px 0px 0px 0px;
+    align-items: center;
+  }
+  .profile-card-main-container{
+    width: 100%;
+    align-items: center;
+  }
+  .profile-card-header-container{
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 0px;
+  }
+  .profile-left-header-border{
+    display: none;
+  }
+  .profile-right-header-border{
+    display: none;
+  }
+  .profile-card-name{
+    font-size: 23px;
+   }
+   .profile-card-content-container{
+    border-radius: 0px 0px 0px 0px;
+    padding:20px 0px 0px 0px;
+  }
+  .profile-card-main-container{
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .profile-card-name{
+    font-size: 18px;
+   }
+}

@@ -1,0 +1,170 @@
+.user-component-header {
+    background-color: black;
+    padding: 20px;
+  }
+  .selected-user-name-container{
+    display: flex;
+    align-items: center;
+  }
+  .selected-user-content-flex {
+    display: flex;
+    align-items: center;
+    display: block;
+  }
+  .mobile-responive-viewer-count{
+    display: flex;
+    align-items: center;
+    display: none;
+  }
+  .selected-user-name {
+    color: white;
+    font-size: 22px;
+    margin-left: 10px;
+  }
+  .user-viewer-count-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d3a341;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    width: 80%;
+  }
+  .responive-user-viewer-count-container{
+    display: flex;
+    align-items: center;
+  }
+  .game-viewer-profile-container{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .game-viewer-profile{
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+  }
+  .user-viewer-eye-icon{
+    height: 20px;
+    width: 32px;
+    margin-right: 5px;
+  }
+  @media only screen and (max-width:1200px) {
+    .user-viewer-count-bar {
+        width: 100%;
+        margin-top: 20px;
+      }
+  }
+  .user-viewer-count-num {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .user-viewer-count-number {
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+  }
+  .user-viewer-count {
+    color: #d3a341;
+    font-size: 16px;
+  }
+  .scrollable-content {
+    background-color: #3a3a3a;
+    padding: 16px 20px;
+    display: block;
+    position: relative;
+    bottom: 0;
+    height: calc(665px - 10px);
+    overflow-y: scroll;
+    margin-bottom: 50px;
+  }
+  .scrollable-content::-webkit-scrollbar {
+    width: 8px;
+  }
+  .scrollable-content::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, #a36f1a 0%, #593700 100%);
+  }
+  .scrollable-content::-webkit-scrollbar-thumb {
+    background: #d3a341;
+    border-radius: 10px;
+  }
+
+  @media only screen and (max-width:992px){
+    .game-viewer-main-container{
+      width: 400px;
+      margin: auto;
+    }
+  }
+   @media only screen and (max-width:550px){
+    .scrollable-content {
+      /* height: calc(704px - 15px); */
+      height: 76vh;
+      padding-bottom: 50px;
+      margin-bottom: 45px;
+    }
+    .selected-user-content-flex {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .user-viewer-count-bar{
+      display: none;
+    }
+    .mobile-responive-viewer-count{
+      display: block;
+      display: flex;
+    }
+    .game-viewer-main-container{
+      width: 100%;
+    }
+   }
+
+   @media only screen and (min-width:2000px){
+    .game-viewer-profile-container{
+      width: 70px;
+      height: 70px;
+    }
+    .game-viewer-profile{
+      width: 70px;
+      height: 70px;
+    }
+    .selected-user-name {
+      font-size: 30px;
+      margin-left: 15px;
+    }
+    .user-viewer-count-bar {
+      padding: 10px 15px;
+      width: 100%;
+      margin-top: 25px;
+      border-radius: 40px;
+    }
+    .user-viewer-eye-icon{
+      height: 40px;
+      width: 40px;
+      margin-right: 10px;
+    }
+    .user-viewer-count-number {
+      font-size: 20px;
+    }
+    .user-viewer-count {
+      font-size: 22px;
+    }
+    .scrollable-content {
+      height: 66rem;
+    }
+   }
+
+   @media only screen and (min-width:1800px){
+    .scrollable-content {
+      width:475px;
+      height: 43rem;
+    }
+    .user-component-header {
+      width:475px;
+    }
+   }

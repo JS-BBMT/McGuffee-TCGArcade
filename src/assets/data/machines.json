@@ -1,0 +1,42 @@
+[
+	{
+		"id": 1,
+		"image": "pokemonimage.svg",
+		"machineName": "Brilliant Stars",
+		"active": true,
+		"class": 1,
+		"cost": 200
+	},
+	{
+		"id": 2,
+		"image": "pokemonimage.svg",
+		"machineName": "Brilliant Stars",
+		"active": true,
+		"class": 1,
+		"cost": 400
+	},
+	{
+		"id":3,
+		"image": "pokemonimage.svg",
+		"machineName": "Brilliant Stars",
+		"active": true,
+		"class": 2,
+		"cost": 750
+	},
+	{
+		"id": 4,
+		"image": "pokemonimage.svg",
+		"machineName": "Brilliant Stars",
+		"active": true,
+		"class": 2,
+		"cost": 1200
+	},
+	{
+		"id": 5,
+		"image": "pokemonimage.svg",
+		"machineName": "Brilliant Stars",
+		"active": true,
+		"class": 3,
+		"cost": 10000
+	}
+]

@@ -1,0 +1,11 @@
+.bottom-tab-container{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:10px 40px 10px 40px;
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    z-index: 99999;
+}

@@ -1,0 +1,85 @@
+.prize-list-text {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 17px 0px 0px 0px;
+}
+.prize-list-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.jackpot-img {
+  height: 300px;
+  width: 300px;
+}
+.price-list-scroll-container{
+  overflow-y: scroll;
+  height:440px; 
+}
+.price-list-scroll-container::-webkit-scrollbar{
+  width: 0px;
+}
+@media only screen and (max-width:550px){
+  .prize-list-text{
+    display: none;
+  }
+  .mobile-black-header{
+    background-color: #000;
+    width: 100%;
+    height: 80px;
+    position: absolute;
+  }
+  .jackpot-img {
+    height: 300px;
+    width: 300px;
+    /* margin-top: -50px; */
+  }
+  .mobile-reponive-scroll-jackpot{
+    overflow-y: scroll;
+    height:86vh; 
+    position: relative;
+    z-index: 9999;
+    margin-bottom: 60px;
+  }
+
+  .price-list-scroll-container{
+    overflow-y: initial;
+    /* height:395px;  */
+  }
+ .mobile-reponive-scroll-jackpot::-webkit-scrollbar{
+    width: 6px;
+    height: 10%;
+  }
+ .mobile-reponive-scroll-jackpot::-webkit-scrollbar-track {
+    background: linear-gradient(180deg, #A36F1A 0%, #593700 100%);
+    border-radius: 13px;
+  }
+  
+ .mobile-reponive-scroll-jackpot::-webkit-scrollbar-thumb {
+    background: #D3A341;
+    border-radius: 13px;
+  }
+}
+
+@media only screen and (min-width:2000px){
+  .prize-list-text {
+    font-size: 36px;
+  }
+  .jackpot-img {
+    height: 600px;
+    width: 550px;
+  }
+  .price-list-scroll-container{
+    overflow-y: scroll;
+    height:565px; 
+  }
+}
+
+@media only screen and (min-width:1800px){
+  .price-list-scroll-container {
+    height: 470px;
+  }
+}

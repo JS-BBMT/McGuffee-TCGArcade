@@ -1,0 +1,15 @@
+[
+  {
+    "name": "Charizard Holo",
+    "isJackpot": true
+  },
+  {
+    "name": "Charmander",
+    "isJackpot": false
+  },
+  {
+    "name": "Gengar",
+    "isJackpot": false
+  }
+
+]

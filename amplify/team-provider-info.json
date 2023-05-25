@@ -1,0 +1,52 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyddbe5795a48f4-staging-23959-authRole",
+      "UnauthRoleArn": "arn:aws:iam::952045891012:role/amplify-amplifyddbe5795a48f4-staging-23959-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::952045891012:role/amplify-amplifyddbe5795a48f4-staging-23959-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyddbe5795a48f4-staging-23959-deployment",
+      "UnauthRoleName": "amplify-amplifyddbe5795a48f4-staging-23959-unauthRole",
+      "StackName": "amplify-amplifyddbe5795a48f4-staging-23959",
+      "StackId": "arn:aws:cloudformation:us-east-1:952045891012:stack/amplify-amplifyddbe5795a48f4-staging-23959/18c904d0-fd9e-11ec-af05-0e1c47e12f6b",
+      "AmplifyAppId": "d1v30y4b3napi4"
+    },
+    "categories": {
+      "storage": {
+        "users": {},
+        "machines": {}
+      },
+      "function": {
+        "tcgapi": {
+          "deploymentBucketName": "amplify-amplifyddbe5795a48f4-staging-23959-deployment",
+          "s3Key": "amplify-builds/tcgapi-5a52354a552b444b5977-build.zip"
+        },
+        "users": {},
+        "machines": {}
+      },
+      "api": {
+        "tcgapi": {}
+      }
+    }
+  },
+  "prod": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-tcgarcadefrontend-prod-233500-authRole",
+      "UnauthRoleArn": "arn:aws:iam::952045891012:role/amplify-tcgarcadefrontend-prod-233500-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::952045891012:role/amplify-tcgarcadefrontend-prod-233500-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-tcgarcadefrontend-prod-233500-deployment",
+      "UnauthRoleName": "amplify-tcgarcadefrontend-prod-233500-unauthRole",
+      "StackName": "amplify-tcgarcadefrontend-prod-233500",
+      "StackId": "arn:aws:cloudformation:us-east-1:952045891012:stack/amplify-tcgarcadefrontend-prod-233500/e3c1cc40-5b30-11ed-a5d2-0ef8b195f305",
+      "AmplifyAppId": "d1v30y4b3napi4"
+    },
+    "categories": {
+      "function": {
+        "tcgapi": {},
+        "users": {},
+        "machines": {}
+      }
+    }
+  }
+}

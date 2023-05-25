@@ -1,0 +1,204 @@
+.prize-card-header-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+  margin-top: 30px;
+  background: linear-gradient(180deg, #A36F1A 0%, #593700 100%);
+  border-radius: 20px 20px 0px 0px;
+}
+.prize-card-main-container{
+  width: 90%;
+}
+
+.prize-left-header-border{
+  background-color: #fff;
+  width: 33%;
+  height: 1px;
+  margin-right: 30px;
+}
+.prize-right-header-border{
+  background-color: #fff;
+  width: 33%;
+  height: 1px;
+  margin-left: 30px;
+}
+.prize-card-name{
+  font-family: 'Poppins', sans-serif;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 42px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+}
+.prize-card-content-container{
+  background: rgba(138, 196, 228, 0.3);
+  border-radius: 0px 0px 20px 20px;
+  padding: 30px 20px 20px 20px
+}
+
+@media only screen and (max-width:1270px){
+  .prize-left-header-border{
+    width: 27%;
+  }
+  .prize-right-header-border{
+    width: 27%;
+  }
+}
+
+@media only screen and (max-width:946px){
+  .prize-left-header-border{
+    width: 22%;
+  }
+  .prize-right-header-border{
+    width: 22%;
+  }
+}
+
+@media only screen and (max-width:777px){
+  .prize-left-header-border{
+    width: 18%;
+  }
+  .prize-right-header-border{
+    width: 18%;
+  }
+}
+
+
+@media only screen and (max-width:768px){
+  .prize-card-name{
+    font-size: 20px;
+  }
+  .prize-card-content-container{
+    padding:30px 0px 0px 0px;
+  }
+}
+@media only screen and (max-width:550px){
+  .prize-card-name{
+    font-size: 20px;
+  }
+  .prize-card-content-container{
+    padding:30px 0px 0px 0px;
+    align-items: center;
+  }
+  .prize-card-main-container{
+    width: 100%;
+    align-items: center;
+  }
+  .prize-card-header-container{
+    border-radius: 0px 0px 0px 0px;
+    margin-top: 0px;
+  }
+  .prize-left-header-border{
+    display: none;
+  }
+  .prize-right-header-border{
+    display: none;
+  }
+  .prize-card-name{
+    font-size: 23px;
+   }
+   .prize-card-content-container{
+    border-radius: 0px 0px 0px 0px;
+    padding:20px 0px 0px 0px;
+  }
+  .prize-card-main-container{
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .prize-card-name{
+    font-size: 18px;
+   }
+}
+
+.machine-card-container{
+  background: linear-gradient(135.58deg, #CECECE -1.03%, #E4E4E4 53.69%, #9F9F9F 100%);
+  border-radius: 20px;
+  width: 200px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.views-icon-container{
+  /* background: #8AC4E4; */
+  border-radius: 15px 0px 0px 15px;
+  display: flex;
+  align-items:center;
+  float: right;
+  margin-top: 20px;
+}
+.view-eye-icon{
+  width: 17px;
+  height: 17px;
+  margin: 0px 3px 0px 6px;
+}
+.view-numbers{
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 15px;
+  color: #fff;
+}
+.pokemon-image{
+  width: 180px;
+  height: 140px;
+}
+.machine-number-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+.pokemin-img-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+@media only screen and (max-width:768px){
+  .machine-card-container{
+    margin: 0px 10px 0px 10px;
+  }
+}
+@media only screen and (max-width:550px){
+  .views-icon-container{
+    border-radius: 0px 0px 10px 10px;
+    width: 60px;
+    padding: 1px;
+    margin-top: 0px;
+  }
+  .view-eye-icon{
+    width: 15px;
+    height: 15px;
+    margin:0px 3px 0px 8px;
+
+  }
+  .view-numbers{
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .machine-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px 0px 10px;
+    width: 160px;
+  }
+  .pokemon-image{
+    width: 150px;
+    height: 120px;
+  }
+}

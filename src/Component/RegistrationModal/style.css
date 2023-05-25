@@ -1,0 +1,296 @@
+.register-modal-styling .ant-modal-header{
+  display: none;
+}
+.register-modal-styling .ant-modal-close-x {
+  display: none;
+}
+.register-modal-styling .ant-modal-body{
+  padding: 10px;
+  background-color: #3A3A3A;
+}
+.register-modal-close-icon-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+}
+.register-modal-close-icon{
+  width: 28px;
+  height: 28px;
+}
+
+
+.registration-form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registration-header-logo{
+  width: 260px;
+  height: 100px;
+  margin-bottom: 30px;
+  margin-top: 0px;
+}
+.registration-content-container{
+  background-color: #3A3A3A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.registration-content-container form {
+  background-color: #3A3A3A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.registration-authentication-input-field{
+  background:#fff;
+  border-radius: 48px;
+  outline: none;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  width: 300px;
+  margin-bottom:10px;
+  font-size: 18px;
+}
+.registration-authentication-input-field::placeholder{
+  color: #C4C4C4;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.registration-authentication-input-field .ant-picker-input > input:placeholder-shown {
+  margin-left: 96px;
+  font-size: 16px;
+}
+.registration-authentication-input-field .ant-picker-input > input{
+  margin-left: 96px;
+}
+.registration-btn{
+  background-color:#D3A341;
+  border: none;
+  outline: none;
+  width: 300px;
+  border-radius:48px;
+  padding: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+}
+.registration-or-text{
+  color:#C4C4C4;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 15px 0px 15px 0px;
+}
+.registration-facebook-btn{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 340px;
+  border: 1px solid #696969;
+  box-sizing: border-box;
+  border-radius: 48px;
+  padding: 6px 0px 6px 5px;
+  cursor: pointer;
+  margin-bottom:10px;
+}
+.registration-facebook-logo{
+  width: 28px;
+  height: 28px;
+  margin-left: 2px;
+}
+.registration-facebook-btn-text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-right: 35px;
+  color: #fff;
+}
+.checkbox-container {
+  display: block;
+  position: relative;
+  cursor: pointer;
+  margin-top: 10px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 19px;
+  width: 19px;
+  border: 1px solid #D3A341;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.checkbox-container input:checked ~ .checkmark {
+  background-color: transparent;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+.checkbox-container .checkmark:after {
+  left: 5px;
+  top: 0.5px;
+  width: 7px;
+  height: 13px;
+  border: solid white;
+  border-width: 0px 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(28deg);
+}
+.checkbox-conditions-container{
+  width: 325px;
+  margin-top: 15px;
+}
+.accept-text{
+  margin-left: 28px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: -0.5px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #fff;
+}
+.tc-span-text{
+  color: #D3A341;
+  text-decoration: underline;
+  margin-left: 3px;
+}
+.already-have-account{
+  color: #fff;
+  font-size: 18px;
+  margin-top: 15px;
+  display: block;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.login-text{
+  text-decoration: underline;
+  color: #D3A341;
+  cursor: pointer;
+  font-weight:600;
+  margin-left: 5px;
+}
+@media only screen and (max-width:550px){
+  .registration-header-logo{
+    margin-top: 10px;
+  }
+  .registration-content-container{
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .registration-content-container form {
+    background-color: #3A3A3A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .registration-facebook-logo{
+    width: 26px;
+    height: 26px;
+    margin-left:3px;
+  }
+  .registration-authentication-input-field{
+    height: 46px;
+    margin-bottom: 12px;
+  }
+  .registration-btn{
+    height: 46px;
+    margin-bottom: 12px;
+  }
+  .registration-or-text{
+    color:#696969;
+  }
+  .registration-header-logo{
+    width: 155px;
+    height: 58px;
+    margin-top: 30px;
+  }
+  .accept-text{
+    font-size: 15px;
+    margin-top: -3px;
+
+  }
+}
+@media only screen and (max-width:400px){
+  .registration-authentication-input-field{
+    width: 70%;
+    font-size: 15px;
+  }
+  .registration-btn{
+    width: 70%;
+    font-size: 14px;
+  }
+  .registration-facebook-btn{
+    width: 90%;
+    padding: 6px 0px 6px 5px;
+  }
+  .registration-authentication-input-field::placeholder{
+    font-size: 14px;
+  }
+
+  .registration-facebook-btn-text{
+    font-size: 15px;
+  }
+  .registration-or-text{
+    margin: 15px 0px 15px 0px;
+  }
+  .checkbox-container {
+    margin-top: 15px;
+  }
+  .checkbox-conditions-container{
+    width: 88%;
+    margin-top: 15px;
+  }
+  .registration-authentication-input-field .ant-picker-input > input:placeholder-shown {
+    margin-left: 75px;
+  }
+  .registration-authentication-input-field .ant-picker-input > input{
+    margin-left: 75px;
+  }
+}

@@ -1,0 +1,108 @@
+.profile-container{
+  background-color: #252525;
+  height: 100%;
+  min-height: 100vh;
+}
+.standard-card-container{
+  padding-bottom: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-footer{
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+@media only screen and (max-width:550px){
+  .home-footer{
+    display: none;
+  }
+  .standard-card-container{
+    padding-bottom: 0;
+  }
+}
+
+.profile-form-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-content-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.profile-content-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.input-field{
+  background:#fff;
+  border-radius: 48px;
+  outline: none;
+  border: none;
+  padding: 12px;
+  text-align: center;
+  width: 300px;
+  margin-bottom:10px;
+  font-size: 18px;
+}
+.input-field::placeholder {
+  color: #C4C4C4;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+
+.profile-btn {
+  background-color:#D3A341;
+  border: none;
+  outline: none;
+  width: 300px;
+  border-radius:48px;
+  padding: 12px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #fff;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+@media only screen and (max-width:550px){
+  .profile-content-container{
+    background-color: transparent;
+    width: 100%;
+    padding: 10px 0px 20px 0px;
+  }
+  .profile-content-container form {
+    width: 100%;
+  }
+  .input-field{
+    height: 46px;
+  }
+}
+
+@media only screen and (max-width:400px){
+  .input-field{
+    width: 70%;
+    font-size: 14px;
+  }
+  .profile-btn{
+    width: 70%;
+    font-size: 14px;
+  }
+}

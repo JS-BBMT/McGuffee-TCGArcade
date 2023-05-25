@@ -1,0 +1,14 @@
+{
+  "resourceName": "machines",
+  "tableName": "machines",
+  "partitionKey": {
+    "fieldName": "id",
+    "fieldType": "string"
+  },
+  "sortKey": {
+    "fieldName": "type",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
