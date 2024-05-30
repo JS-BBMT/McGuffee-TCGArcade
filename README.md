@@ -1,3 +1,8 @@
+
+![1](https://github.com/JS-BBMT/McGuffee-TCGArcade/assets/149588546/87f3ccc6-ddd9-4ad8-a7d3-93f8ab0e95a8)
+
+![Uploading 2.png…]()
+
 !!! www.tcgarcade.com !!!
 # Getting Started with Create React App
 
